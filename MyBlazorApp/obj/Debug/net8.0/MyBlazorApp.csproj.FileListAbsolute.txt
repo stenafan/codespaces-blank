@@ -27,3 +27,4 @@
 /workspaces/codespaces-blank/MyBlazorApp/obj/Debug/net8.0/MyBlazorApp.pdb
 /workspaces/codespaces-blank/MyBlazorApp/obj/Debug/net8.0/MyBlazorApp.genruntimeconfig.cache
 /workspaces/codespaces-blank/MyBlazorApp/obj/Debug/net8.0/ref/MyBlazorApp.dll
+/workspaces/codespaces-blank/MyBlazorApp/obj/Debug/net8.0/MyBlazorApp.sourcelink.json

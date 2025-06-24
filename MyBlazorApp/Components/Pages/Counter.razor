@@ -6,6 +6,16 @@
 <h1>Register Workout</h1>
 
 <div class="mb-4">
+    <label for="exercise">Exercise:</label>
+    <select id="exercise" class="form-select mb-3" @bind="sessionEntry.Exercise">
+        <option value="">Select an exercise</option>
+        <option value="Squat">Squat</option>
+        <option value="Press">Press</option>
+        <option value="S.L Deadlift">S.L Deadlift</option>
+        <option value="Bench Press">Bench Press</option>
+        <option value="Pull-up">Pull-up</option>
+        </select>
+
     <label for="sets">Sets:</label>
     <input type="number" id="sets" class="form-control mb-3" min="1" max="10" @bind="sessionEntry.Sets" />
 

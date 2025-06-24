@@ -1,4 +1,3 @@
-using MyBlazorApp.Models;
 namespace MyBlazorApp.Models
 {
     public class SessionEntry
@@ -6,6 +5,6 @@ namespace MyBlazorApp.Models
         public int Sets { get; set; }
         public int Reps { get; set; }
         public double Weight { get; set; }
-        public Exercise? Exercise { get; set; }
+        public string? Exercise { get; set; }
     }
 }
